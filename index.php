@@ -22,10 +22,10 @@
                             <input type="button" value=".">
                         </div>
                         <div class="Operaciones">
-                            <input type="button" onclick="operacion(this)" value="+">
-                            <input type="button" onclick="operacion(this)" value="-">
-                            <input type="button" onclick="operacion(this)" value="*">
-                            <input type="button" onclick="operacion(this)" value="/">
+                            <input type="button" onclick="setMemoria(this)" value="+">
+                            <input type="button" onclick="setMemoria(this)" value="-">
+                            <input type="button" onclick="setMemoria(this)" value="*">
+                            <input type="button" onclick="setMemoria(this)" value="/">
                         </div>
                     </div>
                 </form>
