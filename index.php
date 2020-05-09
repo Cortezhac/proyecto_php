@@ -17,15 +17,15 @@
                     <div class="Botobes">
                         <div class="Numeros">
                             <?php for($i = 0; $i<10;$i++):?>
-                            <input type="button" value="<?php echo $i?>">
+                            <input type="button" onclick="obtenerValores(this)" value="<?php echo $i?>">
                             <?php endfor?>
                             <input type="button" value=".">
                         </div>
                         <div class="Operaciones">
-                            <input type="button" value="+">
-                            <input type="button" value="-">
-                            <input type="button" value="*">
-                            <input type="button" value="/">
+                            <input type="button" onclick="operacion(this)" value="+">
+                            <input type="button" onclick="operacion(this)" value="-">
+                            <input type="button" onclick="operacion(this)" value="*">
+                            <input type="button" onclick="operacion(this)" value="/">
                         </div>
                     </div>
                 </form>
@@ -33,4 +33,5 @@
         </div>
     </div>
 </body>
+<script src="js/Calculadora.js"></script>
 </html>
