@@ -43,3 +43,22 @@ function setMemoria(operacion){
     console.log("Operacion " + operacionSet);
     console.log("Memo 2 " + MemoriaDos);
 }
+
+function operar(){
+    switch(operacionSet){
+        case "+":
+                pantallaDos.value = parseFloat(MemoriaUno) + parseFloat(MemoriaDos);
+            break;
+        case "-":
+                pantallaDos.value = (MemoriaUno - MemoriaDos);
+            break;
+        case "*":
+                pantallaDos.value = (MemoriaUno * MemoriaDos);
+            break;
+        case "/":
+                pantallaDos.value = (MemoriaUno / MemoriaDos);
+            break;
+        default:
+            
+    }
+}

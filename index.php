@@ -26,6 +26,7 @@
                             <input type="button" onclick="setMemoria(this)" value="-">
                             <input type="button" onclick="setMemoria(this)" value="*">
                             <input type="button" onclick="setMemoria(this)" value="/">
+                            <input type="button" onclick="operar()" value="=">
                         </div>
                     </div>
                 </form>
