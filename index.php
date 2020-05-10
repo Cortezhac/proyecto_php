@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Calculadora PHP + JS</title>
 </head>
 <body>
@@ -14,12 +15,12 @@
                         <input type="text" name="pantalladatos" id="pantalladatos">
                         <input type="text" name="pantallarespuesta" id="pantallarespuesta">
                     </div>
-                    <div class="Botobes">
+                    <div class="Botones">
                         <div class="Numeros">
                             <?php for($i = 0; $i<10;$i++):?>
                             <input type="button" onclick="obtenerValores(this)" value="<?php echo $i?>">
                             <?php endfor?>
-                            <input type="button" value=".">
+                            <input type="button" onclick="obtenerValores(this)" value=".">
                         </div>
                         <div class="Operaciones">
                             <input type="button" onclick="setMemoria(this)" value="+">

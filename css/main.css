@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col{
+    padding-inline-start: 5px;
+}
+
+form{
+    padding: 5px;;
+}
+
+.calscreen{
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.calscreen > input{
+    border: none;
+    width: 100%;
+}
+
+.calscreen > input::selection{
+    border: none;
+}
+
+input[type="button"]{
+    margin: 2px;
+    width: 22px;
+    padding: 5px;
+}
+
+input[value="="]{
+    margin: 5px 0;
+    width: 98%;
+}
+
+.Botones{
+    width: 150px;
+}
+
+.Botones > div{
+    display: inline;
+}
+
+.Operaciones{
+    width: 60%;
+    display: inline-block;
+}
